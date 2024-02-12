@@ -1,0 +1,163 @@
+body {
+    font-family: system-ui;
+    color:#454545;
+    }
+
+a {
+    color:#2894FF;
+}
+
+h1 {
+    text-align:center;
+}
+
+h2 {
+    text-transform:uppercase;
+}
+
+ul.episode-select {
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type:none;
+    text-align: center;
+}
+
+
+
+ul.difficulty-select {
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type:none;
+    text-align: center;
+}
+
+
+.return-link {
+    display:block;
+    margin-right:auto;
+}
+    
+
+.bb-dtable {
+    width: 100%;
+}
+
+.bb-dtable td {
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 5px
+}
+
+.bb-dtable td p {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.8rem;
+    color: grey
+}
+
+.bb-dtable tr:first-child {
+    text-align: center;
+    text-transform: uppercase;
+    position:sticky;
+    top:0px;
+}
+
+.bb-dtable tr>td:first-child {
+    text-transform: capitalize;
+    background-color: #454545;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    font-style: italic
+}
+
+.bb-dtable tr:first-child> :nth-child(2) {
+    background-color: green;
+    color: white;
+}
+
+.bb-dtable tr:first-child> :nth-child(3) {
+    background-color: lime;
+}
+
+.bb-dtable tr:first-child> :nth-child(4) {
+    background-color: cyan;
+}
+
+.bb-dtable tr:first-child> :nth-child(5) {
+    background-color: blue;
+    color: white;
+}
+
+.bb-dtable tr:first-child> :nth-child(6) {
+    background-color: purple;
+    color: white;
+}
+
+.bb-dtable tr:first-child> :nth-child(7) {
+    background-color: pink;
+}
+
+.bb-dtable tr:first-child> :nth-child(8) {
+    background-color: red;
+    color: white;
+}
+
+.bb-dtable tr:first-child> :nth-child(9) {
+    background-color: orange;
+}
+
+.bb-dtable tr:first-child> :nth-child(10) {
+    background-color: yellow;
+}
+
+.bb-dtable tr:first-child> :nth-child(11) {
+    background-color: #d4d4d4;
+}
+
+.bb-dtable td:nth-child(2) {
+    background-color: rgba(0, 128, 0, 0.2);
+}
+
+.bb-dtable td:nth-child(3) {
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
+.bb-dtable td:nth-child(4) {
+    background-color: rgba(0, 255, 255, 0.2);
+}
+
+.bb-dtable td:nth-child(5) {
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+.bb-dtable td:nth-child(6) {
+    background-color: rgba(128, 0, 128, 0.2);
+}
+
+.bb-dtable td:nth-child(7) {
+    background-color: rgba(255, 193, 203, 0.4);
+}
+
+.bb-dtable td:nth-child(8) {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.bb-dtable td:nth-child(9) {
+    background-color: rgba(255, 165, 0, 0.2);
+}
+
+.bb-dtable td:nth-child(10) {
+    background-color: rgba(255, 255, 0, 0.2);
+}
+
+.bb-dtable td:nth-child(11) {
+    background-color: rgba(212,212,212,0.4);
+}

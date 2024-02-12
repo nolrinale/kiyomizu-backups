@@ -1,0 +1,19 @@
+[Unit]
+Description=starts the newserv PSO emulator 
+After=network-online.target
+Wants=network-online.target systemd-networkd-wait-online.service
+
+StartLimitIntervalSec=15
+StartLimitBurst=5
+
+
+[Service]
+Restart=always
+RestartSec=10s
+
+Type=simple
+WorkingDirectory=/opt/newserv
+ExecStart=/opt/newserv/newserv
+
+[Install]
+WantedBy=multi-user.target
